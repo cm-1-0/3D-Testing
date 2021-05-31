@@ -1,0 +1,33 @@
+body {
+    background-color: darkgrey;
+}
+.cube {
+    width: 50px;
+    height: 50px;
+    position: absolute;
+    transform-style: preserve-3d;
+    top: 50%;
+    left: 50%;
+    transform: rotateX(240deg) rotateY(-5deg) rotateZ(-155deg);
+}
+
+.top {
+    transform: translateZ(-60px);
+    background: lightblue;
+}
+
+.front {
+    transform: rotateX(90deg);
+    transform-origin: bottom;
+    background: lightblue;
+}
+
+
+.side {
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    position: absolute;
+    border-radius: 10%;
+}
